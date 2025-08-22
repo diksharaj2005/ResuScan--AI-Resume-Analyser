@@ -46,6 +46,7 @@ export default function Home() {
   }, []);
 
   return (
+    <>
     <main>
       <Navbar />
       <section className="flex flex-col items-center gap-8 pt-12 mx-15 pb-5">
@@ -102,5 +103,11 @@ export default function Home() {
         )}
       </section>
     </main>
+    <footer>
+        <section className=" bottom-0 left-0 w-full text-xl text-white z-0 text-center py-2">
+          Made with ❤️ by Diksha
+        </section>
+      </footer>
+      </>
   );
 }
