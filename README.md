@@ -1,20 +1,22 @@
-# Welcome to React Router!
+# AI Resume Analyser
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An AI-powered Resume Analyser built with React (Vite), React Router DOM, and Puter APIs.
+This app allows users to upload resumes, store them securely, and get AI-driven insights to improve their CVs.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+----
 
-## Features
+# Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+-Authentication – Secure login with Puter Auth
+-File Upload – Upload resumes (PDF, DOCX) using Puter FS
+-Cloud Storage – Manage uploaded resumes in Puter’s virtual filesystem
+-AI Insights – Analyse resume content for skills, job-fit, and improvements
+-Routing – Smooth navigation with React Router DOM
+-Fast Build – Powered by Vite for blazing-fast development
 
-## Getting Started
+
+
+
 
 ### Installation
 
